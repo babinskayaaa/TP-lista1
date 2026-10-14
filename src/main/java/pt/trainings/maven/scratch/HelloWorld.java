@@ -13,6 +13,6 @@ public final class HelloWorld {
      * @param args argumenty
      */
     public static void main(final String[] args) {
-        System.out.println("Cześć PWr!!!");
+        System.out.println("Dzien dobry!!!");
     }
 }
