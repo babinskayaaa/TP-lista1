@@ -1,0 +1,19 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>350</y><w>220</w><h>100</h></coordinates><panel_attributes>Playlist
+--
+- name: String
+- songs: List
+--
++ Playlist(name: String)
++ addSong(song: Song): void
++ printSongs(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>130</y><w>170</w><h>160</h></coordinates><panel_attributes>Song
+--
+- title: String
+- artist: String
+--
++ Song(title: String, artist: String)
++ getTitle(): String
++ getArtist(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>130</y><w>90</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>60;230;10;230;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>60</y><w>230</w><h>320</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;300;180;110;210;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>20</y><w>190</w><h>70</h></coordinates><panel_attributes>App
+--
+
+--
++ main(args: String[]): void</panel_attributes><additional_attributes></additional_attributes></element></diagram>

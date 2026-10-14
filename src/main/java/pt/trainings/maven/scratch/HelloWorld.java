@@ -1,6 +1,18 @@
 package pt.trainings.maven.scratch;
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Dzień dobry!");
+
+/**
+ * Klasa główna.
+ */
+public final class HelloWorld {
+    private HelloWorld() {
+        // Ukryty konstruktor
+    }
+    /**
+     * Metoda main.
+     *
+     * @param args argumenty
+     */
+    public static void main(final String[] args) {
+        System.out.println("Cześć PWr!!!");
     }
 }
